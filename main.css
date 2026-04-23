@@ -1,0 +1,24 @@
+body h1{
+    /* Easy-mode for Cloud Deployment */
+width: 806px;
+height: 209px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 104px;
+line-height: 104px;
+/* or 100% */
+display: flex;
+align-items: center;
+letter-spacing: -6.82px;
+
+color: #C2B8FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}

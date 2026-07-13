@@ -1,4 +1,4 @@
-# 🚀 REQO Assistant: AI-Powered Requirement Engineering Tool
+# REQO Assistant: AI-Powered Requirement Engineering Tool
 
 <p align="center">
   <img src="Images/logo2.png" width="220" alt="REQO Logo"/>
@@ -19,7 +19,7 @@
 
 ---
 
-## 💡 Overview
+## Overview
 
 **REQO Assistant** is a prototype software designed to bridge the gap between clients (who have vision but lack technical specifications) and development teams. 
 
@@ -71,10 +71,10 @@ graph TD
 
 ## ⚡ Features
 
-- 💬 **Dynamic AI Dialogue**: Conversational assistant powered by `gemini-2.5-flash` that acts as a business analyst.
-- 📂 **Auto-Document Generation**: Generates clean, well-formatted `.docx` files on the fly utilizing `python-docx`.
-- 🔐 **Admin Panel**: Role-based access enabling administrators to log in, review raw client submissions, and export aggregated data as CSV.
-- 🎨 **Sleek Custom UI**: Tailored Streamlit styling, CSS-enhanced green action buttons, and responsive grid layouts.
+- - **Dynamic AI Dialogue**: Conversational assistant powered by `gemini-2.5-flash` that acts as a business analyst.
+- - **Auto-Document Generation**: Generates clean, well-formatted `.docx` files on the fly utilizing `python-docx`.
+- - *Admin Panel**: Role-based access enabling administrators to log in, review raw client submissions, and export aggregated data as CSV.
+- - **Sleek Custom UI**: Tailored Streamlit styling, CSS-enhanced green action buttons, and responsive grid layouts.
 
 ---
 

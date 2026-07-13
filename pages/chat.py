@@ -22,7 +22,16 @@ if form_data is None:
 # ---------------------------
 # Configure Gemini
 # ---------------------------
-genai.configure(api_key="*******************************")
+import os
+# Load environment variables from .env if it exists
+if os.path.exists(".env"):
+    with open(".env") as f:
+        for line in f:
+            if line.strip() and not line.startswith("#"):
+                key, val = line.strip().split("=", 1)
+                os.environ[key] = val
+
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 system_instruction = f"""
 You are REQO — an AI Requirement Clarification Assistant.
